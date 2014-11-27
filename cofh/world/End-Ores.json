@@ -1,0 +1,56 @@
+{
+    "valuable_asteroid": {
+        "template": "normal",
+        "block": [
+            {"name": "minecraft:end_stone", "metadata": 0, "weight": 98},
+            {"name": "minecraft:emerald_ore", "metadata": 5, "weight": 2}
+        ],
+        "material": "minecraft:air",
+        "clusterSize": 32,
+        "numClusters": 32,
+        "meanHeight": 108,
+        "maxVariance": 4,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [1],
+        "chunkChance": 100
+    },
+    "shiny_asteroid": {
+        "template": "normal",
+        "block": [
+            {"name": "minecraft:end_stone", "metadata": 0, "weight": 98},
+            {"name": "ThermalFoundation:Ore", "metadata": 5, "weight": 2}
+        ],
+        "material": "minecraft:air",
+        "clusterSize": 32,
+        "numClusters": 32,
+        "meanHeight": 64,
+        "maxVariance": 4,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [1],
+        "chunkChance": 100
+    },
+    "hard_asteroid": {
+        "template": "normal",
+        "block": [
+            {"name": "minecraft:end_stone", "metadata": 0, "weight": 99},
+            {"name": "minecraft:diamond_ore", "metadata": 0, "weight": 1}
+        ],
+        "material": "minecraft:air",
+        "clusterSize": 32,
+        "numClusters": 32,
+        "meanHeight": 16,
+        "maxVariance": 4,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [1],
+        "chunkChance": 100
+    }    
+}

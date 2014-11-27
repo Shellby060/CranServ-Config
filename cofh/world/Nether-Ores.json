@@ -1,0 +1,79 @@
+{
+    "quartz": {
+        "template": "uniform",
+        "block": "quartz_ore",
+        "material": "minecraft:netherrack",
+        "clusterSize": 12,
+        "numClusters": 72,
+        "minHeight": 10,
+        "maxHeight": 118,
+        "retrogen": "true",
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            {"type": "dictionary", "entry": "NETHER"}
+        ],
+        "dimensionRestriction": "none",
+        "dimensions": [],
+        "chunkChance": 5
+    },
+    "nether_redstone": {
+        "template": {"type": "fractal", "generator": "large-vein", "sparse": false},
+        "block": "redstone_ore",
+        "material": "minecraft:netherrack",
+        "clusterSize": 30,
+        "numClusters": 1,
+        "retrogen": "true",
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            {"type": "dictionary", "entry": "NETHER"}
+        ],
+        "dimensionRestriction": "none",
+        "dimensions": [],
+        "chunkChance": 2,
+        "minHeight": 20,
+        "veinHeight": 24,
+        "veinDiameter": 32,
+        "verticalDensity": 25,
+        "horizontalDensity": 100
+    },
+    "nether_coal": {
+        "template": {"type": "fractal", "generator": "large-vein", "sparse": false},
+        "block": "coal_ore",
+        "material": "minecraft:netherrack",
+        "clusterSize": 60,
+        "numClusters": 12,
+        "retrogen": "true",
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            {"type": "dictionary", "entry": "NETHER"}
+        ],
+        "dimensionRestriction": "none",
+        "dimensions": [],
+        "chunkChance": 20,
+        "minHeight": 80,
+        "veinHeight": 40,
+        "veinDiameter": 48,
+        "verticalDensity": 1,
+        "horizontalDensity": 15
+    },
+    "nether_iron": {
+        "template": {"type": "fractal", "generator": "large-vein", "sparse": true},
+        "block": "iron_ore",
+        "material": "minecraft:netherrack",
+        "clusterSize": 30,
+        "numClusters": 24,
+        "retrogen": "true",
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            {"type": "dictionary", "entry": "NETHER"}
+        ],
+        "dimensionRestriction": "none",
+        "dimensions": [],
+        "chunkChance": 40,
+        "minHeight": 56,
+        "veinHeight": 16,
+        "veinDiameter": 48,
+        "verticalDensity": 1,
+        "horizontalDensity": 15
+    }
+}

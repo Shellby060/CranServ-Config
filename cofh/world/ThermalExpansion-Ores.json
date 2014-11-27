@@ -68,9 +68,9 @@
     "nickel": {
         "template": {"type": "fractal", "generator": "large-vein", "sparse": true},
         "block": [
-            {"name": "ThermalFoundation:Ore", "metadata": 4, "weight": 45},
-            {"name": "ThermalFoundation:Ore", "metadata": 5, "weight": 10},
-            {"name": "minecraft:iron_ore", "metadata": 0, "weight": 45}
+            {"name": "ThermalFoundation:Ore", "metadata": 4, "weight": 48},
+            {"name": "ThermalFoundation:Ore", "metadata": 5, "weight": 4},
+            {"name": "minecraft:iron_ore", "metadata": 0, "weight": 48}
         ],
         "material": "minecraft:stone",
         "clusterSize": 10,
