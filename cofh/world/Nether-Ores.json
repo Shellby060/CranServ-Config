@@ -3,7 +3,7 @@
         "template": "uniform",
         "block": "quartz_ore",
         "material": "minecraft:netherrack",
-        "clusterSize": 12,
+        "clusterSize": 24,
         "numClusters": 72,
         "minHeight": 10,
         "maxHeight": 118,
@@ -14,11 +14,11 @@
         ],
         "dimensionRestriction": "none",
         "dimensions": [],
-        "chunkChance": 5
+        "chunkChance": 7
     },
     "nether_redstone": {
         "template": {"type": "fractal", "generator": "large-vein", "sparse": false},
-        "block": "redstone_ore",
+        "block": {"name": "NetherOres:tile.netherores.ore.0", "metadata": 5},
         "material": "minecraft:netherrack",
         "clusterSize": 30,
         "numClusters": 1,
@@ -38,7 +38,7 @@
     },
     "nether_coal": {
         "template": {"type": "fractal", "generator": "large-vein", "sparse": false},
-        "block": "coal_ore",
+        "block": {"name": "NetherOres:tile.netherores.ore.0", "metadata": 0},
         "material": "minecraft:netherrack",
         "clusterSize": 60,
         "numClusters": 12,
@@ -58,7 +58,7 @@
     },
     "nether_iron": {
         "template": {"type": "fractal", "generator": "large-vein", "sparse": true},
-        "block": "iron_ore",
+        "block": {"name": "NetherOres:tile.netherores.ore.0", "metadata": 3},
         "material": "minecraft:netherrack",
         "clusterSize": 30,
         "numClusters": 24,
@@ -75,5 +75,77 @@
         "veinDiameter": 48,
         "verticalDensity": 1,
         "horizontalDensity": 15
+    },
+    "nether_osmium": {
+        "template": {"type": "fractal", "generator": "large-vein", "sparse": true},
+        "block": {"name": "NetherOres:tile.netherores.ore.1", "metadata": 4},
+        "material": "minecraft:netherrack",
+        "clusterSize": 30,
+        "numClusters": 24,
+        "retrogen": "true",
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            {"type": "dictionary", "entry": "NETHER"}
+        ],
+        "dimensionRestriction": "none",
+        "dimensions": [],
+        "chunkChance": 40,
+        "minHeight": 56,
+        "veinHeight": 16,
+        "veinDiameter": 48,
+        "verticalDensity": 1,
+        "horizontalDensity": 15
+    },    
+    "nether_diamond": {
+        "template": "uniform",
+        "block": {"name": "NetherOres:tile.netherores.ore.0", "metadata": 1},
+        "material": "minecraft:netherrack",
+        "clusterSize": 5,
+        "numClusters": 1,
+        "minHeight": 6,
+        "maxHeight": 32,
+        "retrogen": "true",
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            {"type": "dictionary", "entry": "NETHER"}
+        ],
+        "dimensionRestriction": "none",
+        "dimensions": []
+    },
+    "nether_gold": {
+        "template": "uniform",
+        "block": {"name": "NetherOres:tile.netherores.ore.0", "metadata": 2},
+        "material": "minecraft:netherrack",
+        "clusterSize": 5,
+        "numClusters": 1,
+        "minHeight": 32,
+        "maxHeight": 64,
+        "retrogen": "true",
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            {"type": "dictionary", "entry": "NETHER"}
+        ],
+        "dimensionRestriction": "none",
+        "dimensions": []
+    },
+    "nether_sulfer": {
+        "template": "underfluid",
+        "genFluid": "lava",
+        "block": [
+            {"name": "NetherOres:tile.netherores.ore.1", "metadata": 5, "weight": 50},
+            {"name": "NetherOres:tile.netherores.ore.1", "metadata": 14, "weight": 50}
+        ],
+        "material": "minecraft:netherrack",
+        "clusterSize": 5,
+        "numClusters": 1,
+        "minHeight": 20,
+        "maxHeight": 40,
+        "retrogen": "true",
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            {"type": "dictionary", "entry": "NETHER"}
+        ],
+        "dimensionRestriction": "none",
+        "dimensions": []    
     }
 }

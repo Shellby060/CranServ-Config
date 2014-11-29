@@ -35,11 +35,11 @@
         "dimensions": [1],
         "chunkChance": 100
     },
-    "hard_asteroid": {
+    "magic_asteroid": {
         "template": "normal",
         "block": [
             {"name": "minecraft:end_stone", "metadata": 0, "weight": 99},
-            {"name": "minecraft:diamond_ore", "metadata": 0, "weight": 1}
+            {"name": "ThermalFoundation:Ore", "metadata": 0, "weight": 1}
         ],
         "material": "minecraft:air",
         "clusterSize": 32,
