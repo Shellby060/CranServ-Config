@@ -54,6 +54,17 @@
                 <tConDagger id="TConstruct:dagger"/>
                 <tConFrypan id="TConstruct:frypan"/>
                 <invarSword id="ThermalExpansion:tool.swordInvar"/>
+                <daggerOfSacrifice id="AWWayofTime:daggerOfSacrifice"/>
+                <muddySword id="BiomesOPlenty:swordMud"/>
+                <amethystSword id="BiomesOPlenty:swordAmethyst"/>
+                <coralSword id="Oceancraft:CoralSword"/>
+                <thaumiumSword id="Thaumcraft:ItemSwordThaumium"/>
+                <voidSword id="Thaumcraft:ItemSwordVoid"/>
+                <zephyrSword id="Thaumcraft:ItemSwordElemental"/>
+                <certusQuartzSword id="appliedenergistics2:item.ToolCertusQuartzSword"/>
+                <netherQuartzSword id="appliedenergistics2:item.ToolNetherQuartzSword"/>
+                <ichoriumSword id="ThaumicTinkerer:ichorSword"/>
+                <awakenedIchoriumSword id="ThaumicTinkerer:ichorSwordGem"/>
             </sword>
             <munition>
                 <bow id="bow"/>
@@ -64,6 +75,7 @@
                 <tConArrow id="TConstruct:arrow"/>
                 <invarBow id="ThermalExpansion:tool.bowInvar"/>
                 <electricBow id="Mekanism:ElectricBow"/>
+                <boneBow id="Thaumcraft:ItemBowBone"/>
             </munition>
         </weapon>
         <tool>
@@ -79,18 +91,27 @@
                 <lapisPickaxeMek id="MekanismTools:LapisLazuliPickaxe"/>
                 <obsidianPickaxeMek id="MekanismTools:ObsidianPickaxe"/>
                 <osmiumPickaxeMek id="MekanismTools:OsmiumPickaxe"/>
-                <steelPickaxeMek id="
-MekanismTools:SteelPickaxe"/>
+                <steelPickaxeMek id="MekanismTools:SteelPickaxe"/>
                 <peridotPickaxe id="ProjRed|Exploration:projectred.exploration.pickaxeperidot"/>
                 <rubyPickaxe id="ProjRed|Exploration:projectred.exploration.pickaxeruby"/>
                 <sapphirePickaxe id="ProjRed|Exploration:projectred.exploration.pickaxesapphire"/>
                 <steelPickaxeRC id="Railcraft:tool.steel.pickaxe"/>
-                <fluxPickaxe id="
-RedstoneArsenal:tool.shovelFlux"/>
+                <fluxPickaxe id="RedstoneArsenal:tool.shovelFlux"/>
                 <tConPickaxe id="TConstruct:pickaxe"/>
                 <tConHammer id="TConstruct:hammer"/>
                 <invarPickaxe id="ThermalExpansion:tool.pickaxeInvar"/>
                 <atomicDisassembler id="Mekanism:AtomicDisassembler"/>
+                <BoundPickaxe id="AWWayofTime:boundPickaxe"/>
+                <amethystPickaxe id="BiomesOPlenty:pickaxeAmethyst"/>
+                <bronzePickaxeForestry id="Forestry:bronzePickaxe"/>
+                <coralPickaxe id="Oceancraft:CoralPickaxe"/>
+                <thaumiumPickaxe id="Thaumcraft:ItemPickThaumium"/>
+                <voidPickaxe id="Thaumcraft:ItemPickVoid"/>
+                <corePickaxe id="Thaumcraft:ItemPickaxeElemental"/>
+                <certusQuartzPickaxe id="appliedenergistics2:item.ToolCertusQuartzPickaxe"/>
+                <netherQuartzPickaxe id="appliedenergistics2:item.ToolNetherQuartzPickaxe"/>
+                <ichoriumPickaxe id="ThaumicTinkerer:ichorPick"/>
+                <awakenedIchoriumPickaxe id="ThaumicTinkerer:ichorPickGem"/>
             </pickaxe>
             <shovel>
                 <goldShovel id="golden_shovel"/>
@@ -113,7 +134,17 @@ RedstoneArsenal:tool.shovelFlux"/>
                 <tConShovel id="TConstruct:shovel"/>
                 <tConExcavator id="TConstruct:excavator"/>
                 <invarShovel id="ThermalExpansion:tool.shovelInvar"/>
-                
+                <boundShovel id="AWWayofTime:boundShovel"/>
+                <amethystShovel id="BiomesOPlenty:shovelAmethyst"/>
+                <bronzeShovelForestry id="Forestry:bronzeShovel"/>
+                <coralShovel id="Oceancraft:CoralShovel"/>
+                <thaumiumShovel id="Thaumcraft:ItemShovelThaumium"/>
+                <voidShovel id="Thaumcraft:ItemShovelVoid"/>
+                <earthMoverShovel id="Thaumcraft:ItemShovelElemental"/>
+                <certusQuartzShovel id="appliedenergistics2:item.ToolCertusQuartzSpade"/>
+                <netherQuartzShovel id="appliedenergistics2:item.ToolNetherQuartzSpade"/>
+                <ichoriumShovel id="ThaumicTinkerer:ichorShovel"/>
+                <awakenedIchoriumShovel id="ThaumicTinkerer:ichorShovelGem"/>
             </shovel>
             <axe>
                 <goldAxe id="golden_axe"/>
@@ -136,6 +167,17 @@ RedstoneArsenal:tool.shovelFlux"/>
                 <tConHatchet id="TConstruct:hatchet"/>
                 <tConLumberaxe id="TConstruct:lumberaxe"/>
                 <invarAxe id="ThermalExpansion:tool.axeInvar"/>
+                <boundAxe id="AWWayofTime:boundAxe"/>
+                <amethystAxe id="BiomesOPlenty:axeAmethyst"/>
+                <mudAxe id="BiomesOPlenty:axeMud"/>
+                <coralAxe id="Oceancraft:CoralAxe"/>
+                <thaumiumAxe id="Thaumcraft:ItemAxeThaumium"/>
+                <voidAxe id="Thaumcraft:ItemAxeVoid"/>
+                <axeStream id="Thaumcraft:ItemAxeElemental"/>
+                <certusQuartzAxe id="appliedenergistics2:item.ToolCertusQuartzAxe"/>
+                <netherQuartzAxe id="appliedenergistics2:item.ToolNetherQuartzAxe"/>
+                <ichoriumAxe id="ThaumicTinkerer:ichorAxe"/>
+                <awakenedIchoriumAxe id="ThaumicTinkerer:ichorAxeGem"/>
             </axe>
             <hoe>
                 <goldHoe id="golden_hoe"/>
@@ -156,6 +198,14 @@ RedstoneArsenal:tool.shovelFlux"/>
                 <steelHoeRC id="Railcraft:tool.steel.hoe"/>
                 <invarHoe id="ThermalExpansion:tool.hoeInvar"/>
                 <tConMattock id="TConstruct:mattock"/>
+                <amethystHoe id="BiomesOPlenty:hoeAmethyst"/>
+                <mudHoe id="BiomesOPlenty:hoeMud"/>
+                <coralHoe id="Oceancraft:CoralHoe"/>
+                <thaumiumHoe id="Thaumcraft:ItemHoeThaumium"/>
+                <voidHoe id="Thaumcraft:ItemHoeVoid"/>
+                <growthHoe id="Thaumcraft:ItemHoeElemental"/>
+                <certusQuartzHoe id="appliedenergistics2:item.ToolCertusQuartzHoe"/>
+                <netherQuartzHoe id="appliedenergistics2:item.ToolNetherQuartzHoe"/>
             </hoe>
             <scythe>
                 <tConScythe id="TConstruct:scythe"/>
@@ -169,6 +219,13 @@ RedstoneArsenal:tool.shovelFlux"/>
                 <stoneSickle id="ProjRed|Exploration:projectred.exploration.sicklestone"/>
                 <woodSickle id="ProjRed|Exploration:projectred.exploration.sicklewood"/>
                 <fluxSickle id="RedstoneArsenal:tool.sickleFlux"/>
+                <bopScytheAmethyst id="BiomesOPlenty:scytheAmethyst"/>
+                <bopScytheDiamond id="BiomesOPlenty:scytheDiamond"/>
+                <bopScytheGold id="BiomesOPlenty:scytheGold"/>
+                <bopScytheIron id="BiomesOPlenty:scytheIron"/>
+                <bopScytheMud id="BiomesOPlenty:scytheMud"/>
+                <bopScytheStone id="BiomesOPlenty:scytheStone"/>
+                <bopScytheWood id="BiomesOPlenty:scytheWood"/>
             </scythe>
             <shears>
                 <minecraftShears id="shears"/>
@@ -1288,6 +1345,7 @@ RedstoneArsenal:tool.shovelFlux"/>
                     <steak id="cooked_beef"/>
                     <cookedChicken id="cooked_chicken"/>
                     <bakedPotato id="baked_potato"/>
+                    <tripleMeatTreat id="Thaumcraft:TripleMeatTreat"/>
                 </cookedFood>
                 <bread id="bread"/>
                 <pumpkinPie id="pumpkin_pie"/>
