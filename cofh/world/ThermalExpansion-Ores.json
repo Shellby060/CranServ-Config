@@ -1,16 +1,13 @@
 {
-    "surface_poor_ores": {
-        "template": {"type": "surface", "generator": "sparse-cluster"},
-        "followTerrain": true,
+    "surface_poor_iron": {
+        "template": "surface",
         "block": [
-            {"name": "Railcraft:tile.railcraft.ore", "metadata": 7, "weight": 60},
-            {"name": "Railcraft:tile.railcraft.ore", "metadata": 9, "weight": 15},
-            {"name": "Railcraft:tile.railcraft.ore", "metadata": 10, "weight": 5},
-            {"name": "Railcraft:tile.railcraft.ore", "metadata": 11, "weight": 20}
+            {"name": "Railcraft:tile.railcraft.ore", "metadata": 7, "weight": 50},
+            {"name": "minecraft:stone", "metadata": 0, "weight": 50}
         ],
-        "material": ["minecraft:stone", "minecraft:gravel"],
-        "clusterSize": 1,
-        "numClusters": 23,
+        "material": ["minecraft:stone", "minecraft:gravel", "minecraft:snow_layer"],
+        "clusterSize": 8,
+        "numClusters": 1,
         "retrogen": "true",
         "biomeRestriction": "none",
         "biomes": [],
@@ -18,20 +15,72 @@
         "dimensions": [
             -1,
             1
-        ]
+        ],
+        "chunkChance": 2
+    },
+    "surface_poor_copper": {
+        "template": "surface",
+        "block": [
+            {"name": "Railcraft:tile.railcraft.ore", "metadata": 9, "weight": 50},
+            {"name": "minecraft:stone", "metadata": 0, "weight": 50}
+        ],
+        "material": ["minecraft:stone", "minecraft:gravel", "minecraft:snow_layer"],
+        "clusterSize": 8,
+        "numClusters": 1,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ],
+        "chunkChance": 3
+    },
+    "surface_poor_tin": {
+        "template": "surface",
+        "block": [
+            {"name": "Railcraft:tile.railcraft.ore", "metadata": 10, "weight": 50},
+            {"name": "minecraft:stone", "metadata": 0, "weight": 50}
+        ],
+        "material": ["minecraft:stone", "minecraft:gravel", "minecraft:snow_layer"],
+        "clusterSize": 8,
+        "numClusters": 1,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ],
+        "chunkChance": 4
     },
     "surface_gravel_ores": {
-        "template": {"type": "surface", "generator": "sparse-cluster"},
-        "followTerrain": true,
+        "template": "surface",
         "block": [
             {"name": "TConstruct:GravelOre", "metadata": 0, "weight": 40},
             {"name": "TConstruct:GravelOre", "metadata": 2, "weight": 30},
             {"name": "TConstruct:GravelOre", "metadata": 3, "weight": 10},
             {"name": "TConstruct:GravelOre", "metadata": 4, "weight": 20}
         ],
-        "material": ["minecraft:grass", "minecraft:dirt"],
+        "material": [
+            {"name": "minecraft:air", "metadata": 0},
+            {"name": "minecraft:grass", "metadata": 0},
+            {"name": "minecraft:dirt", "metadata": 0},
+            {"name": "minecraft:snow_layer", "metadata": 0},
+            {"name": "minecraft:tallgrass", "metadata": 1},
+            {"name": "minecraft:double_plant", "metadata": 2},
+            {"name": "BiomesOPlenty:foliage", "metadata": 1},
+            {"name": "BiomesOPlenty:foliage", "metadata": 2},
+            {"name": "BiomesOPlenty:foliage", "metadata": 10},
+            {"name": "BiomesOPlenty:foliage", "metadata": 11},
+            {"name": "BiomesOPlenty:plants", "metadata": 0},
+            {"name": "BiomesOPlenty:plants", "metadata": 1},
+            {"name": "BiomesOPlenty:plants", "metadata": 3}
+        ],
         "clusterSize": 1,
-        "numClusters": 7,
+        "numClusters": 1,
         "retrogen": "true",
         "biomeRestriction": "none",
         "biomes": [],
@@ -39,7 +88,8 @@
         "dimensions": [
             -1,
             1
-        ]
+        ],
+        "chunkChance": 7
     },
     "copper": {
         "template": {"type": "fractal", "generator": "large-vein", "sparse": true},
@@ -64,10 +114,7 @@
     },
     "tin": {
         "template": {"type": "fractal", "generator": "large-vein", "sparse": true},
-        "block": [
-            {"name": "ThermalFoundation:Ore", "metadata": 1, "weight": 60},
-            {"name": "TConstruct:SearedBrick", "metadata": 5, "weight": 40}
-        ],
+        "block": {"name": "ThermalFoundation:Ore", "metadata": 1},
         "material": "minecraft:stone",
         "clusterSize": 32,
         "numClusters": 24,
@@ -86,6 +133,30 @@
         "verticalDensity": 15,
         "horizontalDensity": 15
     },
+    "aluminum": {
+        "template": {"type": "fractal", "generator": "large-vein", "sparse": true},
+        "block": [
+            {"name": "GalacticraftCore:tile.gcBlockCore", "metadata": 8, "weight": 30},
+            {"name": "TConstruct:SearedBrick", "metadata": 5, "weight": 70}
+        ],
+        "material": "minecraft:stone",
+        "clusterSize": 16,
+        "numClusters": 48,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ],
+        "chunkChance": 35,
+        "minHeight": 40,
+        "veinHeight": 32,
+        "veinDiameter": 48,
+        "verticalDensity": 15,
+        "horizontalDensity": 15
+    },  
     "lead_silver": {
         "template": {"type": "fractal", "generator": "large-vein", "sparse": true},
         "block": [
