@@ -43,8 +43,8 @@
         "clusterSize": 60,
         "numClusters": 12,
         "retrogen": "true",
-        "biomeRestriction": "none",
-        "biomes": [],
+        "biomeRestriction": "whitelist",
+        "biomes": ["Forest","Taiga","Swampland","ForestHills","TaigaHills","Jungle","JungleHills","JungleEdge","Birh Forest","Birch Forest Hills","Roofed Forest","Cold Taiga","Cold Taiga Hills","Mega Taiga","Mega Taiga Hills","Extreme Hills+","Savanna","Savanna Plateau","Bamboo Forest","Bayou","Bog","Boreal Forest","Brushland","Canyon","Cherry Blossom Grove","ConiferousForest","Snowy Coniferous Forest","Dead Forest","Dead Swamp","DeciduousForest","Fen","Frost Forest","Fungi Forest","Grove","Heathland","Jade Cliffs","Lavender Fields","Lush Desert","Lush Swamp","Maple Woods","Mountain","Mystic Grove","Ominous Woods","Origin Valley","Outback","Rainforest","Redwood Forest","SacredSprings","Seasonal Forest","Shield","Temperate Rainforest","Thicket","Tropical Rainforest","Wetland","Woodland","Tropics","Alps Forest","Canyon Ravine","Meadow Forest","Oasis","Orchard","Scrubland","Silkglades","SpruceWoods","Taiga M","Swampland M","Jungle M","JungleEdge M","Birch Forest M","Birch Forest Hills M","Roofed Forest M","Cold Taiga M","Mega Spruce Taiga","Redwood Taiga Hills M","Extreme Hills+ M","Savanna M","Savanna Plateau M"],
         "dimensionRestriction": "blacklist",
         "dimensions": [
             -1,
@@ -77,7 +77,7 @@
         "chunkChance": 40,
         "minHeight": 32,
         "veinHeight": 32,
-        "veinDiameter": 48,
+        "veinDiameter": 72,
         "verticalDensity": 15,
         "horizontalDensity": 15
     },
@@ -86,10 +86,10 @@
         "block": {"name": "Mekanism:OreBlock", "metadata": 0},
         "material": "minecraft:stone",
         "clusterSize": 30,
-        "numClusters": 24,
+        "numClusters": 18,
         "retrogen": "true",
-        "biomeRestriction": "none",
-        "biomes": [],
+        "biomeRestriction": "whitelist",
+        "biomes": ["Cold Taiga","Cold Taiga Hills","Arctic","Alps Forest","Glacier","Cold Taiga M","FrozenOcean","FrozenRiver","Ice Plains","Ice Mountains","Frost Forest","Tundra","Ice Plains Spikes","Cold Beach","Extreme Hills","Extreme Hills Edge","Stone Beach","Extreme Hills+","Snowy Coniferous Forest","Highland","Moor","Mountain","Extreme Hills M","Extreme Hills+ M","Taiga","Mega Taiga","Taiga M","Mega Spruce Taiga","TaigaHills","Mega Taiga Hills","Redwood Taiga Hills M"],
         "dimensionRestriction": "blacklist",
         "dimensions": [
             -1,
@@ -97,8 +97,8 @@
         ],
         "chunkChance": 40,
         "minHeight": 32,
-        "veinHeight": 32,
-        "veinDiameter": 48,
+        "veinHeight": 24,
+        "veinDiameter": 32,
         "verticalDensity": 15,
         "horizontalDensity": 15
     },
@@ -129,8 +129,9 @@
     "gold": {
         "template": {"type": "fractal", "generator": "large-vein", "sparse": true},
         "block": [
-            {"name": "minecraft:gold_ore", "metadata": 0, "weight": 95},
-            {"name": "Thaumcraft:blockCustomOre", "metadata": 1, "weight": 5}
+            {"name": "minecraft:gold_ore", "metadata": 0, "weight": 45},
+            {"name": "Railcraft:tile.railcraft.ore", "metadata": 8, "weight": 45},
+            {"name": "Thaumcraft:blockCustomOre", "metadata": 1, "weight": 10}
         ],
         "material": "minecraft:stone",
         "clusterSize": 6,
@@ -160,8 +161,8 @@
         "clusterSize": 30,
         "numClusters": 1,
         "retrogen": "true",
-        "biomeRestriction": "none",
-        "biomes": [],
+        "biomeRestriction": "whitelist",
+        "biomes": ["Jungle","JungleEdge","Jungle M","JungleEdge M","JungleHills","Bog","Dead Swamp","Lush Swamp","Rainforest","Tropical Rainforest","Tropics","Scrubland","Savanna","Savanna Plateau","Brushland","Canyon","Outback","Canyon Ravine","Savanna M","Savanna Plateau M","Lush Desert","Desert","DesertHills","Mesa","Mesa Plateau F","Mesa Plateau","Oasis","Desert M","Mesa (Bryce)","Mesa Plateau F M","Mesa Plateau M"],
         "dimensionRestriction": "blacklist",
         "dimensions": [
             -1,
@@ -169,7 +170,7 @@
         ],
         "chunkChance": 20,
         "minHeight": 16,
-        "veinHeight": 24,
+        "veinHeight": 16,
         "veinDiameter": 32,
         "verticalDensity": 25,
         "horizontalDensity": 100
@@ -186,8 +187,8 @@
         "clusterSize": 8,
         "numClusters": 24,
         "retrogen": "true",
-        "biomeRestriction": "none",
-        "biomes": [],
+        "biomeRestriction": "blacklist",
+        "biomes": ["Extreme Hills","Ice Mountains","DesertHills","ForestHills","TaigaHills","Extreme Hills Edge","JungleHills","Birch Forest Hills","Cold Taiga Hills","Mega Taiga Hills","Extreme Hills+","Savanna Plateau","Mesa Plateau F","Mesa Plateau","Alps","Canyon","Crag","Highland","Jade Cliffs","Moor","Mountain","Rainforest","Alps Forest","Glacier","Desert M","Extreme Hills M","Taiga M","Swampland M","Jungle M","JungleEdge M","BirchForest M","Birch Forest Hills M","Roofed Forest M","Cold Taiga M","Redwood Taiga Hills M","Extreme Hills+ M","Savanna M","Savanna Plateau M","Mesa Plateau F M","Mesa Plateau M"],
         "dimensionRestriction": "blacklist",
         "dimensions": [
             -1,
@@ -211,8 +212,8 @@
         "clusterSize": 8,
         "numClusters": 24,
         "retrogen": "true",
-        "biomeRestriction": "none",
-        "biomes": [],
+        "biomeRestriction": "whitelist",
+        "biomes": ["Extreme Hills","Ice Mountains","DesertHills","ForestHills","TaigaHills","Extreme Hills Edge","JungleHills","Birch Forest Hills","Cold Taiga Hills","Mega Taiga Hills","Extreme Hills+","Savanna Plateau","Mesa Plateau F","Mesa Plateau","Alps","Canyon","Crag","Highland","Jade Cliffs","Moor","Mountain","Rainforest","Alps Forest","Glacier","Desert M","Extreme Hills M","Taiga M","Swampland M","Jungle M","JungleEdge M","BirchForest M","Birch Forest Hills M","Roofed Forest M","Cold Taiga M","Redwood Taiga Hills M","Extreme Hills+ M","Savanna M","Savanna Plateau M","Mesa Plateau F M","Mesa Plateau M"],
         "dimensionRestriction": "blacklist",
         "dimensions": [
             -1,

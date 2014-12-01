@@ -93,19 +93,22 @@
     },
     "copper": {
         "template": {"type": "fractal", "generator": "large-vein", "sparse": true},
-        "block": "ThermalFoundation:Ore",
+        "block": [
+            {"name": "ThermalFoundation:Ore", "metadata": 0, "weight": 50},
+            {"name": "Railcraft:tile.railcraft.ore", "metadata": 11, "weight": 50}
+        ],
         "material": "minecraft:stone",
         "clusterSize": 60,
         "numClusters": 12,
         "retrogen": "true",
-        "biomeRestriction": "none",
-        "biomes": [],
+        "biomeRestriction": "blacklist",
+        "biomes": ["Cold Taiga","Cold Taiga Hills","Arctic","Alps Forest","Glacier","Cold Taiga M","FrozenOcean","FrozenRiver","Ice Plains","Ice Mountains","Frost Forest","Tundra","Ice Plains Spikes","Cold Beach","Extreme Hills","Extreme Hills Edge","Stone Beach","Extreme Hills+","Snowy Coniferous Forest","Highland","Moor","Mountain","Extreme Hills M","Extreme Hills+ M","Taiga","Mega Taiga","Taiga M","Mega Spruce Taiga","TaigaHills","Mega Taiga Hills","Redwood Taiga Hills M","Jungle","JungleEdge","Jungle M","JungleEdge M","JungleHills","Bog","Dead Swamp","Lush Swamp","Rainforest","Tropical Rainforest","Tropics","Scrubland","Savanna","Savanna Plateau","Brushland","Canyon","Outback","Canyon Ravine","Savanna M","Savanna Plateau M","Lush Desert","Desert","DesertHills","Mesa","Mesa Plateau F","Mesa Plateau","Oasis","Desert M","Mesa (Bryce)","Mesa Plateau F M","Mesa Plateau M"],
         "dimensionRestriction": "blacklist",
         "dimensions": [
             -1,
             1
         ],
-        "chunkChance": 30,
+        "chunkChance": 20,
         "minHeight": 48,
         "veinHeight": 24,
         "veinDiameter": 48,
@@ -116,20 +119,20 @@
         "template": {"type": "fractal", "generator": "large-vein", "sparse": true},
         "block": {"name": "ThermalFoundation:Ore", "metadata": 1},
         "material": "minecraft:stone",
-        "clusterSize": 32,
-        "numClusters": 24,
+        "clusterSize": 28,
+        "numClusters": 20,
         "retrogen": "true",
-        "biomeRestriction": "none",
-        "biomes": [],
+        "biomeRestriction": "whitelist",
+        "biomes": ["Extreme Hills","Ice Mountains","DesertHills","ForestHills","TaigaHills","Extreme Hills Edge","JungleHills","Birch Forest Hills","Cold Taiga Hills","Mega Taiga Hills","Extreme Hills+","Savanna Plateau","Mesa Plateau F","Mesa Plateau","Alps","Canyon","Crag","Highland","Jade Cliffs","Moor","Mountain","Rainforest","Alps Forest","Glacier","Desert M","Extreme Hills M","Taiga M","Swampland M","Jungle M","JungleEdge M","BirchForest M","Birch Forest Hills M","Roofed Forest M","Cold Taiga M","Redwood Taiga Hills M","Extreme Hills+ M","Savanna M","Savanna Plateau M","Mesa Plateau F M","Mesa Plateau M"],
         "dimensionRestriction": "blacklist",
         "dimensions": [
             -1,
             1
         ],
-        "chunkChance": 35,
+        "chunkChance": 20,
         "minHeight": 40,
-        "veinHeight": 32,
-        "veinDiameter": 48,
+        "veinHeight": 40,
+        "veinDiameter": 64,
         "verticalDensity": 15,
         "horizontalDensity": 15
     },
@@ -150,7 +153,7 @@
             -1,
             1
         ],
-        "chunkChance": 35,
+        "chunkChance": 30,
         "minHeight": 40,
         "veinHeight": 32,
         "veinDiameter": 48,
@@ -164,7 +167,7 @@
             {"name": "ThermalFoundation:Ore", "metadata": 2, "weight": 50}
         ],
         "material": "minecraft:stone",
-        "clusterSize": 12,
+        "clusterSize": 18,
         "numClusters": 24,
         "retrogen": "true",
         "biomeRestriction": "none",
