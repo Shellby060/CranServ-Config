@@ -132,9 +132,8 @@
     "gold": {
         "template": {"type": "fractal", "generator": "large-vein", "sparse": true},
         "block": [
-            {"name": "minecraft:gold_ore", "metadata": 0, "weight": 45},
-            {"name": "Railcraft:tile.railcraft.ore", "metadata": 8, "weight": 45},
-            {"name": "Thaumcraft:blockCustomOre", "metadata": 1, "weight": 10}
+            {"name": "minecraft:gold_ore", "metadata": 0, "weight": 50},
+            {"name": "Railcraft:tile.railcraft.ore", "metadata": 8, "weight": 50}
         ],
         "material": "minecraft:stone",
         "clusterSize": 6,
@@ -252,17 +251,36 @@
             1
         ]
     },
-    "fire": {
+    "infused_stone_fire": {
         "template": "underfluid",
         "genFluid": "lava",
-        "block": [
-            {"name": "Thaumcraft:blockCustomOre", "metadata": 2, "weight": 5}
-        ],  
-        "material": "minecraft:stone",
-        "clusterSize": 16,
-        "numClusters": 3,
+        "block": {"name": "Thaumcraft:blockCustomOre", "metadata": 2},
+        "material": "minecraft:lava",
+        "clusterSize": 3,
+        "numClusters": 16,
         "minHeight": 8,
         "maxHeight": 24,        
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ],
+        "chunkChance": 3
+    },
+    "infused_stone_air": {
+        "template": "uniform",
+        "block": {"name": "Thaumcraft:blockCustomOre", "metadata": 1},
+        "material": [
+            {"name": "minecraft:stone", "metadata": 0},
+            {"name": "TConstruct:CraftedSoil", "metadata": 5}
+        ],
+        "clusterSize": 3,
+        "numClusters": 16,
+        "minHeight": 90,
+        "maxHeight": 120,
         "retrogen": "true",
         "biomeRestriction": "none",
         "biomes": [],

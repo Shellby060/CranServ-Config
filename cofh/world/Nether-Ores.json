@@ -58,7 +58,10 @@
     },
     "nether_iron": {
         "template": {"type": "fractal", "generator": "large-vein", "sparse": true},
-        "block": {"name": "NetherOres:tile.netherores.ore.0", "metadata": 3},
+        "block": [
+            {"name": "NetherOres:tile.netherores.ore.0", "metadata": 3, "weight": 75},
+            {"name": "NetherOres:tile.netherores.ore.1", "metadata": 2, "weight": 25}
+        ],
         "material": "minecraft:netherrack",
         "clusterSize": 30,
         "numClusters": 24,

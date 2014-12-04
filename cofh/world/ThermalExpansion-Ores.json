@@ -129,9 +129,9 @@
             -1,
             1
         ],
-        "chunkChance": 20,
+        "chunkChance": 10,
         "minHeight": 40,
-        "veinHeight": 40,
+        "veinHeight": 60,
         "veinDiameter": 64,
         "verticalDensity": 15,
         "horizontalDensity": 15
@@ -208,5 +208,33 @@
         "veinDiameter": 24,
         "verticalDensity": 25,
         "horizontalDensity": 4
+    },
+    "amber_shards": {
+        "template": "uniform",
+        "block": [
+            {"name": "Thaumcraft:blockCustomOre", "metadata": 7, "weight": 39},
+            {"name": "Thaumcraft:blockCustomOre", "metadata": 1, "weight": 10},
+            {"name": "Thaumcraft:blockCustomOre", "metadata": 2, "weight": 10},
+            {"name": "Thaumcraft:blockCustomOre", "metadata": 3, "weight": 10},
+            {"name": "Thaumcraft:blockCustomOre", "metadata": 4, "weight": 10},
+            {"name": "Thaumcraft:blockCustomOre", "metadata": 5, "weight": 10},
+            {"name": "Thaumcraft:blockCustomOre", "metadata": 6, "weight": 10},
+            {"name": "ThermalFoundation:Ore", "metadata": 6, "weight": 1}
+        ],
+        "material": "minecraft:stone",
+        "clusterSize": 16,
+        "numClusters": 5,
+        "minHeight": 16,
+        "maxHeight": 56,
+        "retrogen": "false",
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            "Coral Reef","Ominous Woods","Mystic Grove","Sacred Springs","Tainted Land","Magical Forest","Eerie", "Eldrich"
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
     }
 }
