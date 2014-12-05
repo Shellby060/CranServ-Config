@@ -94,8 +94,8 @@
     "bedrock_poor_iron": {
         "template": "uniform",
         "block": {"name": "Railcraft:tile.railcraft.ore", "metadata": 7},
-        "material": "minecraft:stone",
-        "clusterSize": 4,
+        "material": ["minecraft:stone", "minecraft:bedrock"],
+        "clusterSize": 3,
         "numClusters": 8,
         "minHeight": 1,
         "maxHeight": 4,
