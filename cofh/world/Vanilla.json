@@ -252,7 +252,7 @@
         ]
     },
     "infused_stone_fire": {
-        "template": "underfluid",
+        "template": "uniform",
         "genFluid": "lava",
         "block": {"name": "Thaumcraft:blockCustomOre", "metadata": 2},
         "material": "minecraft:lava",
