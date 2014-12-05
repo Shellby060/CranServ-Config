@@ -14,6 +14,7 @@
         "dimensionRestriction": "blacklist",
         "dimensions": [
             -1,
+            -100,
             1
         ],
         "chunkChance": 2
@@ -33,6 +34,7 @@
         "dimensionRestriction": "blacklist",
         "dimensions": [
             -1,
+            -100,
             1
         ],
         "chunkChance": 3
@@ -52,6 +54,7 @@
         "dimensionRestriction": "blacklist",
         "dimensions": [
             -1,
+            -100,
             1
         ],
         "chunkChance": 4
@@ -87,6 +90,7 @@
         "dimensionRestriction": "blacklist",
         "dimensions": [
             -1,
+            -100,
             1
         ],
         "chunkChance": 7
@@ -106,6 +110,7 @@
         "dimensionRestriction": "blacklist",
         "dimensions": [
             -1,
+            -100,
             1
         ],
         "chunkChance": 20,
@@ -127,6 +132,7 @@
         "dimensionRestriction": "blacklist",
         "dimensions": [
             -1,
+            -100,
             1
         ],
         "chunkChance": 10,
@@ -151,6 +157,7 @@
         "dimensionRestriction": "blacklist",
         "dimensions": [
             -1,
+            -100,
             1
         ],
         "chunkChance": 30,
@@ -175,6 +182,7 @@
         "dimensionRestriction": "blacklist",
         "dimensions": [
             -1,
+            -100,
             1
         ],
         "chunkChance": 60,
@@ -200,6 +208,7 @@
         "dimensionRestriction": "blacklist",
         "dimensions": [
             -1,
+            -100,
             1
         ],
         "chunkChance": 40,
@@ -234,6 +243,7 @@
         "dimensionRestriction": "blacklist",
         "dimensions": [
             -1,
+            -100,
             1
         ]
     }
