@@ -91,6 +91,23 @@
         ],
         "chunkChance": 7
     },
+    "bedrock_poor_iron": {
+        "template": "uniform",
+        "block": {"name": "Railcraft:tile.railcraft.ore", "metadata": 7},
+        "material": "minecraft:stone",
+        "clusterSize": 4,
+        "numClusters": 8,
+        "minHeight": 1,
+        "maxHeight": 4,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
     "copper": {
         "template": {"type": "fractal", "generator": "large-vein", "sparse": true},
         "block": [
