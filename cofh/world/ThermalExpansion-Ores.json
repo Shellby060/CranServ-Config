@@ -243,7 +243,7 @@
         "numClusters": 5,
         "minHeight": 16,
         "maxHeight": 56,
-        "retrogen": "false",
+        "retrogen": "true",
         "biomeRestriction": "whitelist",
         "biomes": [
             "Coral Reef","Ominous Woods","Mystic Grove","Sacred Springs","Tainted Land","Magical Forest","Eerie", "Eldrich"
