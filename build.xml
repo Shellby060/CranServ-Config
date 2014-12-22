@@ -1,0 +1,16 @@
+<project name="CranServ-Config" default="zip" basedir="/var/lib/jenkins/jobs/CranServ Config/workspace">
+    <description>
+        Zip script to work with Jenkins
+    </description>
+  <!-- set global properties for this build -->
+  <property name="dist"  location="dist"/>
+
+  <target name="zip">
+    <!-- Zip all files into a single zip -->
+    <zip destfile="${dist}/CranServ-Config.zip"
+        basedir="/var/lib/jenkins/jobs/CranServ Config/workspace"
+        excludes=".gitignore, .gitattributes, build.xml, .git/**"
+        compress="true"
+    />
+  </target>
+</project>
