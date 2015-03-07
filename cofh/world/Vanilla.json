@@ -1,14 +1,11 @@
 {
     "dirt": {
         "template": "uniform",
-        "block": [
-            {"name": "minecraft:dirt", "metadata": 0, "weight": 95},
-            {"name": "Thaumcraft:blockCustomOre", "metadata": 4, "weight": 5}
-        ],
+        "block": "dirt",
         "material": "minecraft:stone",
         "clusterSize": 32,
-        "numClusters": 1,
-        "minHeight": 48,
+        "numClusters": 20,
+        "minHeight": 0,
         "maxHeight": 128,
         "retrogen": "false",
         "biomeRestriction": "none",
@@ -21,15 +18,12 @@
     },
     "gravel": {
         "template": "uniform",
-        "block": [
-            {"name": "minecraft:gravel", "metadata": 0, "weight": 95},
-            {"name": "Thaumcraft:blockCustomOre", "metadata": 4, "weight": 5}
-        ],
+        "block": "gravel",
         "material": "stone",
         "clusterSize": 32,
-        "numClusters": 2,
-        "minHeight": 16,
-        "maxHeight": 64,
+        "numClusters": 10,
+        "minHeight": 0,
+        "maxHeight": 128,
         "retrogen": "false",
         "biomeRestriction": "none",
         "biomes": [],
@@ -40,209 +34,14 @@
         ]
     },
     "coal": {
-        "template": {"type": "fractal", "generator": "large-vein", "sparse": false},
-        "block": [
-            {"name": "minecraft:coal_ore", "metadata": 0, "weight": 95},
-            {"name": "Thaumcraft:blockCustomOre", "metadata": 6, "weight": 5}
-        ],
-        "material": "minecraft:stone",
-        "clusterSize": 60,
-        "numClusters": 12,
-        "retrogen": "true",
-        "biomeRestriction": "whitelist",
-        "biomes": ["Forest","Taiga","Swampland","ForestHills","TaigaHills","Jungle","JungleHills","JungleEdge","Birch Forest","Birch Forest Hills","Roofed Forest","Cold Taiga","Cold Taiga Hills","Mega Taiga","Mega Taiga Hills","Extreme Hills+","Savanna","Savanna Plateau","Bamboo Forest","Bayou","Bog","Boreal Forest","Brushland","Canyon","Cherry Blossom Grove","ConiferousForest","Snowy Coniferous Forest","Dead Forest","Dead Swamp","DeciduousForest","Fen","Frost Forest","Fungi Forest","Grove","Heathland","Jade Cliffs","Lavender Fields","Lush Desert","Lush Swamp","Maple Woods","Mountain","Mystic Grove","Ominous Woods","Origin Valley","Outback","Rainforest","Redwood Forest","SacredSprings","Seasonal Forest","Shield","Temperate Rainforest","Thicket","Tropical Rainforest","Wetland","Woodland","Tropics","Alps Forest","Canyon Ravine","Meadow Forest","Oasis","Orchard","Scrubland","Silkglades","SpruceWoods","Taiga M","Swampland M","Jungle M","JungleEdge M","Birch Forest M","Birch Forest Hills M","Roofed Forest M","Cold Taiga M","Mega Spruce Taiga","Redwood Taiga Hills M","Extreme Hills+ M","Savanna M","Savanna Plateau M"],
-        "dimensionRestriction": "blacklist",
-        "dimensions": [
-            -1,
-            1
-        ],
-        "chunkChance": 30,
-        "minHeight": 56,
-        "veinHeight": 24,
-        "veinDiameter": 48,
-        "verticalDensity": 15,
-        "horizontalDensity": 15
-    },
-    "iron": {
-        "template": {"type": "fractal", "generator": "large-vein", "sparse": true},
-        "block": {"name": "minecraft:iron_ore", "metadata": 0},
-        "material": "minecraft:stone",
-        "clusterSize": 30,
-        "numClusters": 24,
-        "retrogen": "true",
-        "biomeRestriction": "none",
-        "biomes": [],
-        "dimensionRestriction": "blacklist",
-        "dimensions": [
-            -1,
-            1
-        ],
-        "chunkChance": 40,
-        "minHeight": 32,
-        "veinHeight": 32,
-        "veinDiameter": 72,
-        "verticalDensity": 15,
-        "horizontalDensity": 15
-    },
-    "osmium": {
-        "template": {"type": "fractal", "generator": "large-vein", "sparse": true},
-        "block": {"name": "Mekanism:OreBlock", "metadata": 0},
-        "material": "minecraft:stone",
-        "clusterSize": 30,
-        "numClusters": 18,
-        "retrogen": "true",
-        "biomeRestriction": "whitelist",
-        "biomes": ["Cold Taiga","Cold Taiga Hills","Arctic","Alps Forest","Glacier","Cold Taiga M","FrozenOcean","FrozenRiver","Ice Plains","Ice Mountains","Frost Forest","Tundra","Ice Plains Spikes","Cold Beach","Extreme Hills","Extreme Hills Edge","Stone Beach","Extreme Hills+","Snowy Coniferous Forest","Highland","Moor","Mountain","Extreme Hills M","Extreme Hills+ M","Taiga","Mega Taiga","Taiga M","Mega Spruce Taiga","TaigaHills","Mega Taiga Hills","Redwood Taiga Hills M"],
-        "dimensionRestriction": "blacklist",
-        "dimensions": [
-            -1,
-            1
-        ],
-        "chunkChance": 40,
-        "minHeight": 32,
-        "veinHeight": 24,
-        "veinDiameter": 32,
-        "verticalDensity": 15,
-        "horizontalDensity": 15
-    },
-    "ae_ore": {
-        "template": {"type": "fractal", "generator": "large-vein", "sparse": true},
-        "block": [
-            {"name": "appliedenergistics2:tile.OreQuartz", "metadata": 0, "weight": 92},
-            {"name": "appliedenergistics2:tile.OreQuartzCharged", "metadata": 0, "weight": 8}
-        ],
-        "material": "minecraft:stone",
-        "clusterSize": 30,
-        "numClusters": 12,
-        "retrogen": "true",
-        "biomeRestriction": "none",
-        "biomes": [],
-        "dimensionRestriction": "blacklist",
-        "dimensions": [
-            -1,
-            1
-        ],
-        "chunkChance": 60,
-        "minHeight": 24,
-        "veinHeight": 16,
-        "veinDiameter": 32,
-        "verticalDensity": 5,
-        "horizontalDensity": 5
-    },    
-    "gold": {
-        "template": {"type": "fractal", "generator": "large-vein", "sparse": true},
-        "block": [
-            {"name": "minecraft:gold_ore", "metadata": 0, "weight": 50},
-            {"name": "Railcraft:tile.railcraft.ore", "metadata": 8, "weight": 50}
-        ],
-        "material": "minecraft:stone",
-        "clusterSize": 6,
-        "numClusters": 48,
-        "retrogen": "true",
-        "biomeRestriction": "none",
-        "biomes": [],
-        "dimensionRestriction": "blacklist",
-        "dimensions": [
-            -1,
-            1
-        ],
-        "chunkChance": 80,
-        "minHeight": 12,
-        "veinHeight": 12,
-        "veinDiameter": 180,
-        "verticalDensity": 1,
-        "horizontalDensity": 25
-    },
-    "redstone": {
-        "template": {"type": "fractal", "generator": "large-vein", "sparse": false},
-        "block": [
-            {"name": "minecraft:redstone_ore", "metadata": 0, "weight": 95},
-            {"name": "Thaumcraft:blockCustomOre", "metadata": 0, "weight": 5}
-        ],
-        "material": "minecraft:stone",
-        "clusterSize": 30,
-        "numClusters": 1,
-        "retrogen": "true",
-        "biomeRestriction": "whitelist",
-        "biomes": ["Jungle","JungleEdge","Jungle M","JungleEdge M","JungleHills","Bog","Dead Swamp","Lush Swamp","Rainforest","Tropical Rainforest","Tropics","Scrubland","Savanna","Savanna Plateau","Brushland","Canyon","Outback","Canyon Ravine","Savanna M","Savanna Plateau M","Lush Desert","Desert","DesertHills","Mesa","Mesa Plateau F","Mesa Plateau","Oasis","Desert M","Mesa (Bryce)","Mesa Plateau F M","Mesa Plateau M"],
-        "dimensionRestriction": "blacklist",
-        "dimensions": [
-            -1,
-            1
-        ],
-        "chunkChance": 20,
-        "minHeight": 16,
-        "veinHeight": 16,
-        "veinDiameter": 32,
-        "verticalDensity": 25,
-        "horizontalDensity": 100
-    },
-    "diamond": {
-        "template": {"type": "fractal", "generator": "large-vein", "sparse": true},
-        "block": [
-            {"name": "minecraft:coal_ore", "metadata": 0, "weight": 35},
-            {"name": "minecraft:diamond_ore", "metadata": 0, "weight": 15},
-            {"name": "Thaumcraft:blockCustomOre", "metadata": 5, "weight": 15},
-            {"name": "minecraft:stone", "metadata": 0, "weight": 35}
-        ],
-        "material": "minecraft:stone",
-        "clusterSize": 8,
-        "numClusters": 24,
-        "retrogen": "true",
-        "biomeRestriction": "blacklist",
-        "biomes": ["Extreme Hills","Ice Mountains","DesertHills","ForestHills","TaigaHills","Extreme Hills Edge","JungleHills","Birch Forest Hills","Cold Taiga Hills","Mega Taiga Hills","Extreme Hills+","Savanna Plateau","Mesa Plateau F","Mesa Plateau","Alps","Canyon","Crag","Highland","Jade Cliffs","Moor","Mountain","Rainforest","Alps Forest","Glacier","Desert M","Extreme Hills M","Taiga M","Swampland M","Jungle M","JungleEdge M","BirchForest M","Birch Forest Hills M","Roofed Forest M","Cold Taiga M","Redwood Taiga Hills M","Extreme Hills+ M","Savanna M","Savanna Plateau M","Mesa Plateau F M","Mesa Plateau M"],
-        "dimensionRestriction": "blacklist",
-        "dimensions": [
-            -1,
-            1
-        ],
-        "chunkChance": 50,
-        "minHeight": 8,
-        "veinHeight": 8,
-        "veinDiameter": 32,
-        "verticalDensity": 25,
-        "horizontalDensity": 4
-    },
-    "emerald": {
-        "template": {"type": "fractal", "generator": "large-vein", "sparse": true},
-        "block": [
-            {"name": "minecraft:emerald_ore", "metadata": 0, "weight": 15},
-            {"name": "Thaumcraft:blockCustomOre", "metadata": 5, "weight": 35},
-            {"name": "minecraft:stone", "metadata": 0, "weight": 50}
-        ],
-        "material": "minecraft:stone",
-        "clusterSize": 8,
-        "numClusters": 24,
-        "retrogen": "true",
-        "biomeRestriction": "whitelist",
-        "biomes": ["Extreme Hills","Ice Mountains","DesertHills","ForestHills","TaigaHills","Extreme Hills Edge","JungleHills","Birch Forest Hills","Cold Taiga Hills","Mega Taiga Hills","Extreme Hills+","Savanna Plateau","Mesa Plateau F","Mesa Plateau","Alps","Canyon","Crag","Highland","Jade Cliffs","Moor","Mountain","Rainforest","Alps Forest","Glacier","Desert M","Extreme Hills M","Taiga M","Swampland M","Jungle M","JungleEdge M","BirchForest M","Birch Forest Hills M","Roofed Forest M","Cold Taiga M","Redwood Taiga Hills M","Extreme Hills+ M","Savanna M","Savanna Plateau M","Mesa Plateau F M","Mesa Plateau M"],
-        "dimensionRestriction": "blacklist",
-        "dimensions": [
-            -1,
-            1
-        ],
-        "chunkChance": 100,
-        "minHeight": 8,
-        "veinHeight": 8,
-        "veinDiameter": 32,
-        "verticalDensity": 25,
-        "horizontalDensity": 4
-    },    
-    "lapis": {
-        "template": "underfluid",
-        "block": [
-            {"name": "minecraft:lapis_ore", "metadata": 2, "weight": 60},
-            {"name": "Thaumcraft:blockCustomOre", "metadata": 3, "weight": 40}
-        ],  
-        "material": [
-            {"name": "minecraft:stone", "metadata": 0},
-            {"name": "minecraft:gravel", "metadata": 0}
-        ],
-        "clusterSize": 7,
-        "numClusters": 3,
-        "minHeight": 32,
-        "maxHeight": 72,
-        "retrogen": "true",
+        "template": "uniform",
+        "block": "coal_ore",
+        "material": "stone",
+        "clusterSize": 16,
+        "numClusters": 20,
+        "minHeight": 0,
+        "maxHeight": 128,
+        "retrogen": "false",
         "biomeRestriction": "none",
         "biomes": [],
         "dimensionRestriction": "blacklist",
@@ -251,44 +50,105 @@
             1
         ]
     },
-    "infused_stone_fire": {
+    "iron": {
         "template": "uniform",
-        "genFluid": "lava",
-        "block": {"name": "Thaumcraft:blockCustomOre", "metadata": 2},
-        "material": "minecraft:lava",
-        "clusterSize": 3,
-        "numClusters": 16,
-        "minHeight": 8,
-        "maxHeight": 24,        
-        "retrogen": "true",
+        "block": "iron_ore",
+        "material": "minecraft:stone",
+        "clusterSize": 8,
+        "numClusters": 20,
+        "minHeight": 0,
+        "maxHeight": 64,
+        "retrogen": "false",
         "biomeRestriction": "none",
         "biomes": [],
         "dimensionRestriction": "blacklist",
         "dimensions": [
             -1,
             1
-        ],
-        "chunkChance": 3
+        ]
     },
-    "infused_stone_air": {
+    "gold": {
         "template": "uniform",
-        "block": {"name": "Thaumcraft:blockCustomOre", "metadata": 1},
-        "material": [
-            {"name": "minecraft:stone", "metadata": 0},
-            {"name": "TConstruct:CraftedSoil", "metadata": 5}
-        ],
-        "clusterSize": 3,
-        "numClusters": 16,
-        "minHeight": 90,
-        "maxHeight": 120,
-        "retrogen": "true",
+        "block": "gold_ore",
+        "material": "minecraft:stone",
+        "clusterSize": 8,
+        "numClusters": 2,
+        "minHeight": 0,
+        "maxHeight": 32,
+        "retrogen": "false",
         "biomeRestriction": "none",
         "biomes": [],
         "dimensionRestriction": "blacklist",
         "dimensions": [
             -1,
             1
+        ]
+    },
+    "redstone": {
+        "template": "uniform",
+        "block": "redstone_ore",
+        "material": "minecraft:stone",
+        "clusterSize": 7,
+        "numClusters": 8,
+        "minHeight": 0,
+        "maxHeight": 16,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+    "diamond": {
+        "template": "uniform",
+        "block": "diamond_ore",
+        "material": "minecraft:stone",
+        "clusterSize": 7,
+        "numClusters": 1,
+        "minHeight": 0,
+        "maxHeight": 16,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+    "lapis": {
+        "template": "normal",
+        "block": "lapis_ore",
+        "material": "minecraft:stone",
+        "clusterSize": 6,
+        "numClusters": 1,
+        "meanHeight": 16,
+        "maxVariance": 16,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+    "quartz": {
+        "template": "uniform",
+        "block": "quartz_ore",
+        "material": "minecraft:netherrack",
+        "clusterSize": 13,
+        "numClusters": 16,
+        "minHeight": 10,
+        "maxHeight": 118,
+        "retrogen": "false",
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            {"type": "dictionary", "entry": "NETHER"}
         ],
-        "chunkChance": 3
+        "dimensionRestriction": "none",
+        "dimensions": []
     }
 }
