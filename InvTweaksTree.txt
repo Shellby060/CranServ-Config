@@ -726,6 +726,22 @@
     </resources>
     <item>
         <utility>
+            <backpack>
+                <apiaristBag id="Forestry:apiaristBag"/>
+                <builderBag id="Forestry:builderBag"/>
+                <builderBagT2 id="Forestry:builderBagT2"/>
+                <foresterBag id="Forestry:foresterBag"/>
+                <foresterBagT2 id="Forestry:foresterBagT2"/>
+                <hunterBag id="Forestry:hunterBag"/>
+                <hunterBagT2 id="Forestry:hunterBagT2"/>
+                <minerBag id="Forestry:minerBag"/>
+                <minerBagT2 id="Forestry:minerBagT2"/>
+                <adventurerBag id="Forestry:adventurerBag"/>
+                <adventurerBagT2 id="Forestry:adventurerBagT2"/>
+                <lepidopteristBag id="Forestry:lepidopteristBag"/>
+                <diggerBag id="Forestry:diggerBag"/>
+                <diggerBagT2 id="Forestry:diggerBagT2"/>
+            </backpack>
             <torch id="torch"/>
             <flintAndSteel id="flint_and_steel"/>
             <craftingTable id="crafting_table"/>

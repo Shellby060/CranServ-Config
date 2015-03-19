@@ -6,19 +6,6 @@
 ====== [ SETTINGS ] ======
 
 D LOCKED
-D1 pickaxe
-#D1 powerGlove
-D2 shovel
-D3 axe
-D6 waterBucket
-D7 sword
-D8 edibleFood
-D9 torch
-#A1 apiaristsPack
-#B1 forestersPack
-#B1 wovenForesters
-#C1 minersPack
-#C1 wovenMiners
 
 ======== [ GETTING STARTED ] ========
 
