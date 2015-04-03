@@ -1,0 +1,257 @@
+{
+    "surface_poor_iron": {
+        "template": "surface",
+        "block": [
+            {"name": "Railcraft:tile.railcraft.ore", "metadata": 7, "weight": 50},
+            {"name": "minecraft:stone", "metadata": 0, "weight": 50}
+        ],
+        "material": ["minecraft:stone", "minecraft:gravel", "minecraft:snow_layer"],
+        "clusterSize": 8,
+        "numClusters": 1,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ],
+        "chunkChance": 2
+    },
+    "surface_poor_copper": {
+        "template": "surface",
+        "block": [
+            {"name": "Railcraft:tile.railcraft.ore", "metadata": 9, "weight": 50},
+            {"name": "minecraft:stone", "metadata": 0, "weight": 50}
+        ],
+        "material": ["minecraft:stone", "minecraft:gravel", "minecraft:snow_layer"],
+        "clusterSize": 8,
+        "numClusters": 1,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ],
+        "chunkChance": 3
+    },
+    "surface_poor_tin": {
+        "template": "surface",
+        "block": [
+            {"name": "Railcraft:tile.railcraft.ore", "metadata": 10, "weight": 50},
+            {"name": "minecraft:stone", "metadata": 0, "weight": 50}
+        ],
+        "material": ["minecraft:stone", "minecraft:gravel", "minecraft:snow_layer"],
+        "clusterSize": 8,
+        "numClusters": 1,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ],
+        "chunkChance": 4
+    },
+    "surface_gravel_ores": {
+        "template": "surface",
+        "block": [
+            {"name": "TConstruct:GravelOre", "metadata": 0, "weight": 40},
+            {"name": "TConstruct:GravelOre", "metadata": 2, "weight": 30},
+            {"name": "TConstruct:GravelOre", "metadata": 3, "weight": 10},
+            {"name": "TConstruct:GravelOre", "metadata": 4, "weight": 20}
+        ],
+        "material": [
+            {"name": "minecraft:air", "metadata": 0},
+            {"name": "minecraft:grass", "metadata": 0},
+            {"name": "minecraft:dirt", "metadata": 0},
+            {"name": "minecraft:snow_layer", "metadata": 0},
+            {"name": "minecraft:tallgrass", "metadata": 1},
+            {"name": "minecraft:double_plant", "metadata": 2},
+            {"name": "BiomesOPlenty:foliage", "metadata": 1},
+            {"name": "BiomesOPlenty:foliage", "metadata": 2},
+            {"name": "BiomesOPlenty:foliage", "metadata": 10},
+            {"name": "BiomesOPlenty:foliage", "metadata": 11},
+            {"name": "BiomesOPlenty:plants", "metadata": 0},
+            {"name": "BiomesOPlenty:plants", "metadata": 1},
+            {"name": "BiomesOPlenty:plants", "metadata": 3}
+        ],
+        "clusterSize": 1,
+        "numClusters": 1,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ],
+        "chunkChance": 7
+    },
+    "bedrock_poor_iron": {
+        "template": "uniform",
+        "block": {"name": "Railcraft:tile.railcraft.ore", "metadata": 7},
+        "material": ["minecraft:stone", "minecraft:bedrock"],
+        "clusterSize": 3,
+        "numClusters": 8,
+        "minHeight": 1,
+        "maxHeight": 4,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+    "copper": {
+        "template": {"type": "fractal", "generator": "large-vein", "sparse": true},
+        "block": [
+            {"name": "ThermalFoundation:Ore", "metadata": 0, "weight": 50},
+            {"name": "Railcraft:tile.railcraft.ore", "metadata": 11, "weight": 50}
+        ],
+        "material": "minecraft:stone",
+        "clusterSize": 60,
+        "numClusters": 12,
+        "retrogen": "true",
+        "biomeRestriction": "blacklist",
+        "biomes": ["Cold Taiga","Cold Taiga Hills","Arctic","Alps Forest","Glacier","Cold Taiga M","FrozenOcean","FrozenRiver","Ice Plains","Ice Mountains","Frost Forest","Tundra","Ice Plains Spikes","Cold Beach","Extreme Hills","Extreme Hills Edge","Stone Beach","Extreme Hills+","Snowy Coniferous Forest","Highland","Moor","Mountain","Extreme Hills M","Extreme Hills+ M","Taiga","Mega Taiga","Taiga M","Mega Spruce Taiga","TaigaHills","Mega Taiga Hills","Redwood Taiga Hills M","Jungle","JungleEdge","Jungle M","JungleEdge M","JungleHills","Bog","Dead Swamp","Lush Swamp","Rainforest","Tropical Rainforest","Tropics","Scrubland","Savanna","Savanna Plateau","Brushland","Canyon","Outback","Canyon Ravine","Savanna M","Savanna Plateau M","Lush Desert","Desert","DesertHills","Mesa","Mesa Plateau F","Mesa Plateau","Oasis","Desert M","Mesa (Bryce)","Mesa Plateau F M","Mesa Plateau M"],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ],
+        "chunkChance": 20,
+        "minHeight": 48,
+        "veinHeight": 24,
+        "veinDiameter": 48,
+        "verticalDensity": 15,
+        "horizontalDensity": 15
+    },
+    "tin": {
+        "template": {"type": "fractal", "generator": "large-vein", "sparse": true},
+        "block": {"name": "ThermalFoundation:Ore", "metadata": 1},
+        "material": "minecraft:stone",
+        "clusterSize": 28,
+        "numClusters": 20,
+        "retrogen": "true",
+        "biomeRestriction": "whitelist",
+        "biomes": ["Extreme Hills","Ice Mountains","DesertHills","ForestHills","TaigaHills","Extreme Hills Edge","JungleHills","Birch Forest Hills","Cold Taiga Hills","Mega Taiga Hills","Extreme Hills+","Savanna Plateau","Mesa Plateau F","Mesa Plateau","Alps","Canyon","Crag","Highland","Jade Cliffs","Moor","Mountain","Rainforest","Alps Forest","Glacier","Desert M","Extreme Hills M","Taiga M","Swampland M","Jungle M","JungleEdge M","BirchForest M","Birch Forest Hills M","Roofed Forest M","Cold Taiga M","Redwood Taiga Hills M","Extreme Hills+ M","Savanna M","Savanna Plateau M","Mesa Plateau F M","Mesa Plateau M"],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ],
+        "chunkChance": 10,
+        "minHeight": 40,
+        "veinHeight": 60,
+        "veinDiameter": 64,
+        "verticalDensity": 15,
+        "horizontalDensity": 15
+    },
+    "aluminum": {
+        "template": {"type": "fractal", "generator": "large-vein", "sparse": true},
+        "block": [
+            {"name": "GalacticraftCore:tile.gcBlockCore", "metadata": 8, "weight": 30},
+            {"name": "TConstruct:SearedBrick", "metadata": 5, "weight": 70}
+        ],
+        "material": "minecraft:stone",
+        "clusterSize": 16,
+        "numClusters": 48,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ],
+        "chunkChance": 30,
+        "minHeight": 40,
+        "veinHeight": 32,
+        "veinDiameter": 48,
+        "verticalDensity": 15,
+        "horizontalDensity": 15
+    },  
+    "lead_silver": {
+        "template": {"type": "fractal", "generator": "large-vein", "sparse": true},
+        "block": [
+            {"name": "ThermalFoundation:Ore", "metadata": 3, "weight": 50},
+            {"name": "ThermalFoundation:Ore", "metadata": 2, "weight": 50}
+        ],
+        "material": "minecraft:stone",
+        "clusterSize": 18,
+        "numClusters": 24,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ],
+        "chunkChance": 60,
+        "minHeight": 16,
+        "veinHeight": 16,
+        "veinDiameter": 180,
+        "verticalDensity": 1,
+        "horizontalDensity": 25
+    },
+    "nickel": {
+        "template": {"type": "fractal", "generator": "large-vein", "sparse": true},
+        "block": [
+            {"name": "ThermalFoundation:Ore", "metadata": 4, "weight": 49},
+            {"name": "ThermalFoundation:Ore", "metadata": 5, "weight": 2},
+            {"name": "minecraft:iron_ore", "metadata": 0, "weight": 49}
+        ],
+        "material": "minecraft:stone",
+        "clusterSize": 10,
+        "numClusters": 20,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ],
+        "chunkChance": 40,
+        "minHeight": 16,
+        "veinHeight": 4,
+        "veinDiameter": 24,
+        "verticalDensity": 25,
+        "horizontalDensity": 4
+    },
+    "amber_shards": {
+        "template": "uniform",
+        "block": [
+            {"name": "Thaumcraft:blockCustomOre", "metadata": 7, "weight": 39},
+            {"name": "Thaumcraft:blockCustomOre", "metadata": 1, "weight": 10},
+            {"name": "Thaumcraft:blockCustomOre", "metadata": 2, "weight": 10},
+            {"name": "Thaumcraft:blockCustomOre", "metadata": 3, "weight": 10},
+            {"name": "Thaumcraft:blockCustomOre", "metadata": 4, "weight": 10},
+            {"name": "Thaumcraft:blockCustomOre", "metadata": 5, "weight": 10},
+            {"name": "Thaumcraft:blockCustomOre", "metadata": 6, "weight": 10},
+            {"name": "ThermalFoundation:Ore", "metadata": 6, "weight": 1}
+        ],
+        "material": "minecraft:stone",
+        "clusterSize": 16,
+        "numClusters": 5,
+        "minHeight": 16,
+        "maxHeight": 56,
+        "retrogen": "false",
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            "Coral Reef","Ominous Woods","Mystic Grove","Sacred Springs","Tainted Land","Magical Forest","Eerie", "Eldrich"
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    }
+}

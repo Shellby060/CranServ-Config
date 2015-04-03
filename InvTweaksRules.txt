@@ -7,18 +7,17 @@
 
 D LOCKED
 D1 pickaxe
-#D1 powerGlove
 D2 shovel
 D3 axe
-D6 waterBucket
+#D6 waterBucket
 D7 sword
 D8 edibleFood
 D9 torch
-#A1 apiaristsPack
-#B1 forestersPack
-#B1 wovenForesters
-#C1 minersPack
-#C1 wovenMiners
+A1 apiaristBag
+B1 foresterBag
+B1 foresterBagT2
+C1 minerBag
+C1 minerBagT2
 
 ======== [ GETTING STARTED ] ========
 
